@@ -7,7 +7,7 @@ import { Home, About, Contact, Resume, Projects } from './../pages'
 const AppRoutes = (
     createBrowserRouter(
         createRoutesFromElements(
-        <Route path="/" element={<App/>}>
+        <Route path="/portfolio-website" element={<App/>}>
             <Route path="" element={<Home/>}/>
             <Route path="about" element={<About/>}/>
             <Route path="contact" element={<Contact/>}/>
