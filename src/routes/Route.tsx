@@ -6,7 +6,7 @@ import { Home, About, Contact, Resume, Projects } from '../pages/index.ts'
 const AppRoutes = (
     createBrowserRouter(
         createRoutesFromElements(
-        <Route path="/portfolio-website" element={<App/>}>
+        <Route path="portfolio-website/" element={<App/>}>
             <Route path="" element={<Home/>}/>
             <Route path="about" element={<About/>}/>
             <Route path="contact" element={<Contact/>}/>
