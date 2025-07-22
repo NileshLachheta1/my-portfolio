@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://NileshLachheta1.github.io/portfolio-website/",
+  "homepage": "https://NileshLachheta1.github.io/my-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
