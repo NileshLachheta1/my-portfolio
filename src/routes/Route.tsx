@@ -1,8 +1,7 @@
-import React from 'react';
 import { createBrowserRouter, createRoutesFromElements,  Route } from 'react-router-dom';
 
-import App from './../App.jsx';
-import { Home, About, Contact, Resume, Projects } from './../pages'
+import App from '../App.js';
+import { Home, About, Contact, Resume, Projects } from '../pages/index.ts'
 
 const AppRoutes = (
     createBrowserRouter(

@@ -1,4 +1,4 @@
-import AppRoutes from "./Route";
+import AppRoutes from "./Route.tsx";
 
 export {
     AppRoutes
