@@ -70,7 +70,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4 # ✅ use latest version
         with:
-          node-version: 16
+          node-version: 20
           cache: 'npm' # optional: enables caching of node_modules
 
       - name: Install dependencies
